@@ -39,7 +39,7 @@ in bashrc.
 3. edit os-release
 
 ```
-nano /etc/os-release
+sudo nano /etc/os-release
 ```
 
 edit the following:
