@@ -1,7 +1,7 @@
 # cometxos
-A linux-based OS.
+A linux-based OS (for now on Arch).
 
-Step one: Creating the "Comet" Package Manager
+1. Creating the "Comet" Package Manager
 
 run:
 ```
@@ -29,9 +29,23 @@ It runs the original pacman command (/usr/bin/pacman "$@"), so the underlying fu
 Success (0 status code): It prints "Comet successfully landed." in green.
 Failure (non-zero status code): It prints "Comet crashed!" in red.
 
-2. Alias Pacman to Comet
+2. update neofetch ascii
 
 ```
-alias pacman="comet"
+neofetch --ascii ~/path/to/comet.txt
 ```
 in bashrc.
+
+3. edit os-release
+
+```
+nano /etc/os-release
+```
+
+edit the following:
+
+```
+NAME="CometxOS"
+PRETTY_NAME="CometxOS"
+ID=comet
+```
