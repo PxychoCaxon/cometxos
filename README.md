@@ -1,5 +1,5 @@
 # cometxos
-A linux-based OS (for now on Arch).
+Supposed to be a linux-based OS for later. For now it's just something I came up with when I was bored.
 
 1. Creating the "Comet" Package Manager
 
